@@ -1,0 +1,10 @@
+import pedidos.*
+
+test "pedido1" {
+
+	var pedido1 = new Pedido(distancia = 480, tiempoMaximo= 6)
+	
+	
+	assert.equals(70, pedido1.velocidadRequerida())
+
+}
